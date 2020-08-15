@@ -13,7 +13,7 @@ class Ong extends Model {
         email: Sequelize.STRING,
         whatsapp: Sequelize.STRING,
         city: Sequelize.STRING,
-        uf: Sequelize.STRING,
+        uf: Sequelize.STRING(2),
       },
       {
         sequelize,
